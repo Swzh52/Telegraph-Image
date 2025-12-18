@@ -1,0 +1,11 @@
+name = "telegraph-image"
+main = "functions/upload.js"        # 入口文件，根据你的项目结构调整
+compatibility_date = "2025-12-18"  # 使用当前日期，保证 Workers API 兼容
+
+[vars]
+TG_Bot_Token = "8215937837:AAE-JzAxzR9nOAy2jr0pgcFa75mIkTQsWqg"
+TG_Chat_ID   = "-1003341006254"
+
+[[kv_namespaces]]
+binding = "my_kv"
+id = "d78f5a87764849189a7bee6807133ed2"
